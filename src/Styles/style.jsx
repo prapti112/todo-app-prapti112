@@ -6,7 +6,7 @@ export const appStyle = {
     borderRadius: "10px",
     height: "100vh",
   };
-
+  
   export const inputStyle = {
     padding: "0.1rem 1em",
     marginTop: "2em",
@@ -19,7 +19,7 @@ export const appStyle = {
     width: "60%",
     boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
   };
-
+  
   export const buttonStyle = {
     margin: "1em 0.5em",
     fontSize: "0.9em",
@@ -31,9 +31,30 @@ export const appStyle = {
     fontSize: "15px",
     fontWeight: "bold",
     boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-    // height: "38px",
-    // width: "40px",
+    height: "38px",
+    width: "40px",
     top: "-2px",
     color: "#242424",
     cursor: "pointer",
+  };
+  
+  export const customButtonStyle = {
+    width: "60px",
+    height: "30px",
+    fontSize: "14px",
+    backgroundColor: "#ffffff20",
+  };
+  
+  export const taskStyles = {
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    display: "flex",
+    backgroundColor: "#ffffff40",
+    borderRadius: "15px",
+    padding: "0em 1em",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    margin: "0.5em 0",
+    justifyContent: "space-between",
+    fontWeight: "bold",
   };

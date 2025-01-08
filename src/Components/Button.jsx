@@ -1,9 +1,19 @@
-import { buttonStyle } from "../Styles/Style";
+import React from "react";
+import { buttonStyle } from "../Styles/styles";
+const Button = (props) => {
+  const { text, handleOnClick, ownStyle, ...rest } = props;
+  return (
+    <button
+      style={{
+        ...buttonStyle,
+        ...ownStyle,
+      }}
+      onClick={handleOnClick}
+      {...rest}
+    >
+      {text}
+    </button>
+  );
+};
 
-const Button =(props)=>{
-    return(
-        <button style={buttonStyle} >Add Task</button>
-    )
-    }
-    
-    export default Button;
+export default Button;
